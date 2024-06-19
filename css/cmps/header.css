@@ -1,0 +1,23 @@
+header h1 {
+  color: var(--clr-text);
+}
+
+.selected-loc {
+  background-color: var(--clr-bg-section);
+  color: var(--clr-text);
+}
+
+.selected-loc h2 {
+  text-align: start;
+}
+
+.selected-loc .btn {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 7px;
+  color: var(--clr-text);
+}
+.selected-loc .btn:hover {
+  cursor: pointer;
+  color: var(--clr-btn-hover);
+}
